@@ -5,7 +5,7 @@ import SidebarGeneralHelper from './sidebar-general';
 export default function SidebarHelper({
   menuSelected,
   setMenuSelected,
-}: ISidebarHelperProps) {
+}: Readonly<ISidebarHelperProps>) {
   return (
     <div className="block md:hidden transition-all duration-300 ease-in-out">
       {menuSelected === 'menu' ? <SidebarGeneralHelper /> : <></>}
