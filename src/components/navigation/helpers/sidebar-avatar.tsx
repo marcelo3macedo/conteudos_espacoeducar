@@ -6,7 +6,7 @@ import { ISidebarAvatarHelperProps } from './props/sidebar';
 
 export default function SidebarAvatarHelper({
   setMenuSelected,
-}: ISidebarAvatarHelperProps) {
+}: Readonly<ISidebarAvatarHelperProps>) {
   const { name, setName, setAvatar } = useProfileNavigation();
 
   function applyHandler() {

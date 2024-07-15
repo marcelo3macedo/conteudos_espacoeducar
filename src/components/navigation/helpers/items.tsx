@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { IItemsProps } from './props/items';
 
-export default function ItemsHelper({ items }: IItemsProps) {
+export default function ItemsHelper({ items }: Readonly<IItemsProps>) {
   if (!items) return <></>;
 
   return (

@@ -3,7 +3,9 @@ import { BoltIcon } from '@heroicons/react/24/solid';
 import { useProfileNavigation } from '@/hooks/navigation/profile';
 import { IInfosHelperProps } from './props/infos';
 
-export default function InfosHelper({ setMenuSelected }: IInfosHelperProps) {
+export default function InfosHelper({
+  setMenuSelected,
+}: Readonly<IInfosHelperProps>) {
   const { name, points, avatar } = useProfileNavigation();
 
   function actionHandler() {
@@ -11,7 +13,7 @@ export default function InfosHelper({ setMenuSelected }: IInfosHelperProps) {
   }
 
   return (
-    <div
+    <button
       className="flex items-center select-none hover:opacity-90 hover:cursor-pointer"
       onClick={actionHandler}
     >
@@ -26,7 +28,7 @@ export default function InfosHelper({ setMenuSelected }: IInfosHelperProps) {
           />
         </div>
       </div>
-      <div className="px-1">
+      <div className="px-1 text-left">
         <h4 className="text-xs">Olá,</h4>
         <h2 className="text-md font-bold">{name}</h2>
 
@@ -35,6 +37,6 @@ export default function InfosHelper({ setMenuSelected }: IInfosHelperProps) {
           <h2 className="text-sm mx-1">{points} pontos</h2>
         </div>
       </div>
-    </div>
+    </button>
   );
 }
