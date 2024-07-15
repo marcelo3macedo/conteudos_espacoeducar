@@ -1,7 +1,7 @@
 import HeaderNavigation from '@/components/navigation/header';
 import { MainProps } from './props/main';
 
-function MainTheme({ children }: MainProps) {
+function MainTheme({ children }: Readonly<MainProps>) {
   return (
     <div className="w-full min-h-lvh bg-yellow-50">
       <div className="mx-auto">

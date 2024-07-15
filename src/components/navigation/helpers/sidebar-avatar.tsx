@@ -27,7 +27,7 @@ export default function SidebarAvatarHelper({
       />
       <h2 className="mb-4 text-md font-bold">Escolha o seu avatar</h2>
       <div className="grid grid-cols-3 md:grid-cols-3 mx-auto">
-        <div
+        <button
           className="rounded-full mx-auto"
           onClick={() => {
             setAvatar(cat.src);
@@ -40,8 +40,8 @@ export default function SidebarAvatarHelper({
             alt="Perfil"
             className="h-16 w-16 rounded-full border-slate-100 border-2"
           />
-        </div>
-        <div
+        </button>
+        <button
           className="rounded-full mx-auto"
           onClick={() => {
             setAvatar(dog.src);
@@ -54,14 +54,14 @@ export default function SidebarAvatarHelper({
             alt="Perfil"
             className="h-16 w-16 rounded-full border-slate-100 border-2"
           />
-        </div>
+        </button>
       </div>
-      <div
+      <button
         className="mt-8 inline-block w-full text-center bg-pink-800 px-8 py-2 rounded-lg text-white font-bold text-sm border border-pink-700 hover:cursor-pointer hover:opacity-80"
         onClick={applyHandler}
       >
         Aplicar
-      </div>
+      </button>
     </div>
   );
 }
