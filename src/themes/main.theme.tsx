@@ -7,7 +7,7 @@ function MainTheme({ children }: Readonly<MainProps>) {
     <div className="w-full min-h-lvh bg-yellow-50">
       <div className="mx-auto">
         <HeaderNavigation />
-        {children}
+        <main className="min-h-svh">{children}</main>
         <FooterNavigation />
       </div>
     </div>
