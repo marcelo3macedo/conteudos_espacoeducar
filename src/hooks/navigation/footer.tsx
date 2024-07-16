@@ -1,36 +1,36 @@
 const useFooterNavigation = () => {
   const menu = [
     {
-      title: 'Institucional',
+      title: 'menus.institutional',
       items: [
         {
           href: '/institucional/sobre-nos',
-          title: 'Sobre o blog',
+          title: 'menus.aboutUs',
         },
         {
           href: '/institucional/contate-nos',
-          title: 'Contate-nos',
+          title: 'menus.contactUs',
         },
         {
           href: '/institucional/politicas-privacidade',
-          title: 'Políticas Privacidade',
+          title: 'menus.privacyPolicy',
         },
       ],
     },
     {
-      title: 'Blog',
+      title: 'menus.blog',
       items: [
         {
           href: '/favoritos',
-          title: 'Favoritos',
+          title: 'menus.bookmark',
         },
         {
           href: '/para-professores',
-          title: 'Para Professores',
+          title: 'menus.forTeacher',
         },
         {
           href: '/para-alunos',
-          title: 'Para Alunos',
+          title: 'menus.forStudents',
         },
       ],
     },

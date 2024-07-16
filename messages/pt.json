@@ -1,0 +1,30 @@
+{
+  "home": {
+    "welcome": "Bem-vindo."
+  },
+  "header": {
+    "hello": "Olá",
+    "points": "pontos",
+    "chooseYourName": "Escolha o seu nome",
+    "chooseYourAvatar": "Escolha o seu avatar",
+    "apply": "Aplicar",
+    "forTeacher": "Para Professores",
+    "forStudents": "Para Alunos",
+    "aboutUs": "Sobre nós",
+    "contactUs": "Contate-nos",
+    "privacyPolicy": "Políticas Privacidade"
+  },
+  "footer": {
+    "title": "Página criada para educadores(as). Informações, dicas e materiais para auxílio da rotina docente.",
+    "menus": {
+      "institutional": "Institucional",
+      "blog": "Blog",
+      "aboutUs": "Sobre nós",
+      "contactUs": "Contate-nos",
+      "privacyPolicy": "Políticas Privacidade",
+      "bookmark": "Favoritos",
+      "forTeacher": "Para Professores",
+      "forStudents": "Para Alunos"
+    }
+  }
+}
