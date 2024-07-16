@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/institucional/politicas-privacidade",
+    "destination": "/institutional/privacyPolicy"
+  },
+  {
+    "source": "/institucional/contate-nos",
+    "destination": "/institutional/contactUs"
+  },
+  {
+    "source": "/institucional/sobre-nos",
+    "destination": "/institutional/aboutUs"
+  }
+]

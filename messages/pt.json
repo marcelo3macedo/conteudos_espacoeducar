@@ -26,5 +26,33 @@
       "forTeacher": "Para Professores",
       "forStudents": "Para Alunos"
     }
+  },
+  "privacyPolicy": {
+    "title": "Políticas de privacidade",
+    "description": "A sua privacidade é importante para nós.|É política do Espaço Educar respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site Oespaçoeducar, e outros sites que possuímos e operamos.|Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.|Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado.|Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.|Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei. O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.|Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.|O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais.|Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto conosco.",
+    "footer": "Esta política é efetiva a partir de Outubro/2020.",
+    "cookies": {
+      "title": "O que são cookies?",
+      "description": "Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência.|Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies.|Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou quebrar certos elementos da funcionalidade do site."
+    },
+    "disableCookies": {
+      "title": "Desativar cookies",
+      "description": "Você pode impedir a configuração de cookies ajustando as configurações do seu navegador (consulte a Ajuda do navegador para saber como fazer isso). Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que você visita. A desativação de cookies geralmente resultará na desativação de determinadas funcionalidades e recursos deste site. Portanto, é recomendável que você não desative os cookies."
+    }
+  },
+  "contactUs": {
+    "title": "Dúvidas, Sugestões e críticas",
+    "description": "Aqui é o lugar onde suas perguntas encontram respostas, suas ideias moldam nosso caminho e suas opiniões nos ajudam a crescer.|Queremos ouvir você!|Seja para esclarecer uma dúvida, compartilhar uma sugestão brilhante ou expressar uma crítica construtiva, estamos aqui para receber seu feedback.|Juntos, podemos fazer desta experiência algo ainda melhor.",
+    "social": {
+      "title": "Envie-nos uma mensagem em nossas redes sociais"
+    }
+  },
+  "aboutUs": {
+    "title": "Sobre nós",
+    "description": "Que alegria receber vocês aqui!|Este é um espaço especialmente dedicado a todos os professores e professoras que fazem a diferença na Educação Infantil e no Ensino Fundamental. Meu objetivo é oferecer um acervo diversificado de materiais e recursos educacionais que possam enriquecer suas práticas em sala de aula.|Além das atividades prontas para utilizar em sala de aula, você também encontrará sugestões de lembrancinhas e ideias para compartilhar com seus colegas e alunos. Tudo isso de forma gratuita, pois acredito que o conhecimento deve ser acessível a todos.",
+    "content": {
+      "title": "Encontre em nosso blog:",
+      "description": "Atividades Pedagógicas: Encontre uma variedade de atividades educativas prontas para serem utilizadas em sala de aula, abrangendo diversas áreas do conhecimento, como Matemática, Língua Portuguesa, Ciências, Artes e Educação Física. As atividades são cuidadosamente elaboradas para atender às diferentes faixas etárias e níveis de aprendizado da Educação Infantil e do Ensino Fundamental.|Material de Apoio: Além das atividades prontas, você também terá acesso a materiais de apoio, como fichas de leitura, jogos educativos, cartazes temáticos, entre outros recursos que podem ser utilizados para enriquecer as aulas e estimular o aprendizado dos alunos.|Ideias para Lembrancinhas: Explore sugestões criativas de lembrancinhas que podem ser confeccionadas pelos alunos, seja para datas comemorativas, eventos escolares ou simplesmente para presentear alguém especial. Essas atividades estimulam a criatividade, a coordenação motora e promovem momentos de integração entre os estudantes.|Recursos para Redes Sociais: Para facilitar o compartilhamento e a divulgação dos conteúdos do blog, também disponibilizamos recursos para as redes sociais, como imagens e vídeos que podem ser compartilhados com seus colegas, familiares e seguidores. Assim, você contribui para ampliar o alcance do conhecimento e fortalecer a comunidade educacional."
+    }
   }
 }
