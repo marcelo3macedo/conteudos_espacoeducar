@@ -2,9 +2,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '@/assets/images/logo.png';
 import { useFooterNavigation } from '@/hooks/navigation/footer';
+import { useTranslations } from 'next-intl';
 
 export default function FooterNavigation() {
   const { menu } = useFooterNavigation();
+  const t = useTranslations('footer');
 
   return (
     <footer className="bg-neutral-800">
@@ -21,8 +23,7 @@ export default function FooterNavigation() {
               />
 
               <p className="max-w-sm mt-2 text-sm text-gray-400">
-                Página criada para educadores(as). Informações, dicas e
-                materiais para auxílio da rotina docente.
+                {t('title')}
               </p>
             </div>
           </div>
@@ -31,7 +32,7 @@ export default function FooterNavigation() {
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
               {menu.map((m: any) => (
                 <div key={m.title}>
-                  <h3 className="text-white uppercase">{m.title}</h3>
+                  <h3 className="text-white uppercase">{t(m.title)}</h3>
                   {m.items.map((i: any) => (
                     <Link
                       key={i.title}
@@ -40,7 +41,7 @@ export default function FooterNavigation() {
                       aria-label={i.title}
                       title={i.title}
                     >
-                      {i.title}
+                      {t(i.title)}
                     </Link>
                   ))}
                 </div>
