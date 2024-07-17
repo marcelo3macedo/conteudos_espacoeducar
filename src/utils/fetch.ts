@@ -11,6 +11,14 @@ export async function fetchPosts(page: number = 1, limit: number = 10) {
   return res.json();
 }
 
+export async function fetchHighlights() {
+  const res = await fetch(`${apiUrl}/api/highlights`);
+  if (!res.ok) {
+    throw new Error('Failed to fetch posts');
+  }
+  return res.json();
+}
+
 export function parseQueryParams(query: ParsedUrlQuery): ParsedParams {
   const page =
     typeof query.page === 'string' ? parseInt(query.page, 10) || 1 : 1;

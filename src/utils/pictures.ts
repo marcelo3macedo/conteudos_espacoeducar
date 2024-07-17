@@ -8,3 +8,12 @@ export const getPostImageBySlug = (slug: string) => {
     return notFoundImage;
   }
 };
+
+export const getHighlightImageByName = (name: string) => {
+  try {
+    const image = require(`@/assets/images/profiles/types/${name}.jpg`);
+    return image ? image.default : '';
+  } catch (err) {
+    return notFoundImage;
+  }
+};
