@@ -61,5 +61,10 @@
   },
   "gallery": {
     "seeMore": "Ver mais"
+  },
+  "highlights": {
+    "title": "Bem-vindo a Conteúdos do Espaço Educar",
+    "description": "Aqui você encontrará conteúdos completares do Blog, como atividades interativas para alunos, ferramentas para professores, conteúdos exclusivos e muito mais...",
+    "seeMore": "Ver mais"
   }
 }
