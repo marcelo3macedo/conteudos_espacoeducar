@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "title": "Example 1",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example1",
+    "link": "/example1",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "2",
+    "title": "Example 2",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example2",
+    "link": "/example2",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "3",
+    "title": "Example 3",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example3",
+    "link": "/example3",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "4",
+    "title": "Example 4",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example4",
+    "link": "/example4",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "5",
+    "title": "Example 5",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example5",
+    "link": "/example5",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "6",
+    "title": "Example 6",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example6",
+    "link": "/example6",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "7",
+    "title": "Example 7",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example7",
+    "link": "/example7",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "8",
+    "title": "Example 8",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example8",
+    "link": "/example8",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "9",
+    "title": "Example 9",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example9",
+    "link": "/example9",
+    "keywords": "example, nextjs, content"
+  },
+  {
+    "id": "10",
+    "title": "Example 10",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "slug": "example10",
+    "link": "/example10",
+    "keywords": "example, nextjs, content"
+  }
+]
