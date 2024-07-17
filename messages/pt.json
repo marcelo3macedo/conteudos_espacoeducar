@@ -54,5 +54,12 @@
       "title": "Encontre em nosso blog:",
       "description": "Atividades Pedagógicas: Encontre uma variedade de atividades educativas prontas para serem utilizadas em sala de aula, abrangendo diversas áreas do conhecimento, como Matemática, Língua Portuguesa, Ciências, Artes e Educação Física. As atividades são cuidadosamente elaboradas para atender às diferentes faixas etárias e níveis de aprendizado da Educação Infantil e do Ensino Fundamental.|Material de Apoio: Além das atividades prontas, você também terá acesso a materiais de apoio, como fichas de leitura, jogos educativos, cartazes temáticos, entre outros recursos que podem ser utilizados para enriquecer as aulas e estimular o aprendizado dos alunos.|Ideias para Lembrancinhas: Explore sugestões criativas de lembrancinhas que podem ser confeccionadas pelos alunos, seja para datas comemorativas, eventos escolares ou simplesmente para presentear alguém especial. Essas atividades estimulam a criatividade, a coordenação motora e promovem momentos de integração entre os estudantes.|Recursos para Redes Sociais: Para facilitar o compartilhamento e a divulgação dos conteúdos do blog, também disponibilizamos recursos para as redes sociais, como imagens e vídeos que podem ser compartilhados com seus colegas, familiares e seguidores. Assim, você contribui para ampliar o alcance do conhecimento e fortalecer a comunidade educacional."
     }
+  },
+  "featured": {
+    "title": "Novidades no Blog",
+    "description": "Os novos conteúdos disponilizados no blog especialmente para você."
+  },
+  "gallery": {
+    "seeMore": "Ver mais"
   }
 }
