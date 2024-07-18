@@ -3,6 +3,16 @@ import { ParsedParams } from './props/fetch';
 
 const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
+export async function fetchActivities(page: number = 1, limit: number = 10) {
+  const res = await fetch(
+    `${apiUrl}/api/activities?page=${page}&limit=${limit}`
+  );
+  if (!res.ok) {
+    throw new Error('Failed to fetch activities');
+  }
+  return res.json();
+}
+
 export async function fetchPosts(page: number = 1, limit: number = 10) {
   const res = await fetch(`${apiUrl}/api/posts?page=${page}&limit=${limit}`);
   if (!res.ok) {

@@ -5,5 +5,5 @@ export function paginate<T>(array: T[], page: number, limit: number): T[] {
 }
 
 export function checkHasMorePages(page: number, limit: number, total: number) {
-  return page * limit > total;
+  return page * limit < total;
 }
