@@ -12,7 +12,7 @@ export default function PostPage({ params }: Readonly<PageProps>) {
   return (
     <MainTheme>
       <div className="my-8 px-8 container mx-auto">
-        <PostContent post={post} />
+        <PostContent post={post} isExternal={true} />
       </div>
     </MainTheme>
   );

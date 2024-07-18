@@ -14,13 +14,6 @@ export const metadataContent: Metadata = {
   generator: 'Espaço Educar',
   keywords: 'ensino infantil, professor, atividades',
   referrer: 'origin',
-  themeColor: '#f9a8d4',
-  colorScheme: 'light',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
   creator: 'Espaço Educar',
   publisher: 'Espaço Educar',
   robots: {

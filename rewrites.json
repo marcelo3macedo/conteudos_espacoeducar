@@ -10,5 +10,17 @@
   {
     "source": "/institucional/sobre-nos",
     "destination": "/institutional/aboutUs"
+  },
+  {
+    "source": "/para-alunos",
+    "destination": "/content/student"
+  },
+  {
+    "source": "/para-professores",
+    "destination": "/content/teacher"
+  },
+  {
+    "source": "/postagens/:slug",
+    "destination": "/posts/:slug"
   }
 ]
