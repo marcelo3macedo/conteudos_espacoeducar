@@ -1,6 +1,4 @@
 import ActivitiesGallery from '@/components/gallery/activities';
-import ActivityContent from '@/components/gallery/activity';
-import { Activity } from '@/interfaces/activities';
 import MainTheme from '@/themes/main.theme';
 import { fetchActivities, parseQueryParams } from '@/utils/fetch';
 import { useTranslations } from 'next-intl';
