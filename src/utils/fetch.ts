@@ -11,6 +11,14 @@ export async function fetchPosts(page: number = 1, limit: number = 10) {
   return res.json();
 }
 
+export async function fetchPost(slug: string) {
+  const res = await fetch(`${apiUrl}/api/post/${slug}`);
+  if (!res.ok) {
+    throw new Error('Failed to fetch posts');
+  }
+  return res.json();
+}
+
 export async function fetchHighlights() {
   const res = await fetch(`${apiUrl}/api/highlights`);
   if (!res.ok) {

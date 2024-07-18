@@ -11,13 +11,13 @@ export default function Home({
   readonly searchParams: ParsedUrlQuery;
 }) {
   const { page: pageNum, limit: limitNum } = parseQueryParams(searchParams);
-  const data = use(fetchPosts(pageNum, limitNum));
+  const posts = use(fetchPosts(pageNum, limitNum));
   const highlights = use(fetchHighlights());
 
   return (
     <MainTheme>
       <HighligthsHero data={highlights} />
-      <FeaturedHero data={data} />
+      <FeaturedHero data={posts} />
     </MainTheme>
   );
 }
