@@ -1,14 +1,13 @@
 import { checkHasMorePages } from '@/utils/paginate';
-import { useTranslations } from 'next-intl';
 import { ActivitiesResponse, Activity } from '@/interfaces/activities';
 import ActivityContent from './activity';
+import { SeeMoreGallery } from './seeMore';
 
 export default function ActivitiesGallery({
   data,
 }: {
   readonly data: ActivitiesResponse;
 }) {
-  const t = useTranslations('gallery');
   const hasMorePage = checkHasMorePages(data.page, data.limit, data.total);
 
   return (
@@ -18,15 +17,7 @@ export default function ActivitiesGallery({
           <ActivityContent key={activity.slug} activity={activity} />
         ))}
       </div>
-      {hasMorePage ? (
-        <div className="text-center">
-          <p className="bg-slate-100 w-96 my-8 px-8 mx-auto py-2 rounded-lg text-slate-600 font-bold text-md border border-slate-40">
-            {t('seeMore')}
-          </p>
-        </div>
-      ) : (
-        <></>
-      )}
+      {hasMorePage ? <SeeMoreGallery page={data.page} /> : <></>}
     </article>
   );
 }

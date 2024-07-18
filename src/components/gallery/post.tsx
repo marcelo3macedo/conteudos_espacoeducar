@@ -1,14 +1,24 @@
 import galleryBackground from '@/assets/images/backgrounds/gallery.jpg';
 import { Post } from '@/interfaces/posts';
 import { getPostImageBySlug } from '@/utils/pictures';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function PostContent({ post }: { readonly post: Post }) {
+export default function PostContent({
+  post,
+  isExternal = false,
+}: {
+  readonly post: Post;
+  readonly isExternal?: boolean;
+}) {
+  const t = useTranslations('post');
+  const endpoint = isExternal ? post.link : `/${t('endpoint')}/${post.slug}`;
+
   return (
     <Link
       key={post.title}
-      href={post.link}
+      href={endpoint}
       className="mb-12 lg:mb-0 overflow-hidden rounded-md relative"
     >
       <Image

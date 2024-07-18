@@ -73,5 +73,12 @@
   },
   "activities": {
     "start": "Iniciar"
+  },
+  "teacher": {
+    "title": "Área Dos Professores",
+    "description": "Atividades, conteúdos, lembrancinhas e muito mais. Tudo para dar aquele capricho em suas aulas."
+  },
+  "post": {
+    "endpoint": "postagens"
   }
 }
