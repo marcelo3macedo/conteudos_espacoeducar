@@ -1,5 +1,11 @@
 import { Option } from '@/interfaces/sessionConfig';
 
+function generateRandomElement() {
+  const array = new Uint32Array(1);
+  crypto.getRandomValues(array);
+  return array[0] / (0xffffffff + 1);
+}
+
 function getRandomElements<T>(array: T[], quantity: number): T[] {
   if (quantity > array.length) {
     throw new Error('Quantity cannot be greater than the length of the array');
@@ -9,7 +15,7 @@ function getRandomElements<T>(array: T[], quantity: number): T[] {
   const usedIndices = new Set<number>();
 
   while (result.length < quantity) {
-    const randomIndex = Math.floor(Math.random() * array.length);
+    const randomIndex = Math.floor(generateRandomElement() * array.length);
     if (!usedIndices.has(randomIndex)) {
       result.push(array[randomIndex]);
       usedIndices.add(randomIndex);
@@ -22,7 +28,7 @@ function getRandomElements<T>(array: T[], quantity: number): T[] {
 function selectDynamicOption(options: Option[]) {
   if (options.length === 0) return undefined;
 
-  let randomNumber = Math.random();
+  let randomNumber = generateRandomElement();
 
   for (const option of options) {
     if (randomNumber < option.possibility) {
@@ -39,24 +45,24 @@ function getRandomIndexToHide<T>(array: T[]): number {
     throw new Error('Array is empty.');
   }
 
-  const randomIndex = Math.floor(Math.random() * array.length);
+  const randomIndex = Math.floor(generateRandomElement() * array.length);
   return randomIndex;
 }
 
 function getRandomNumber(min: number, max: number) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(generateRandomElement() * (max - min + 1)) + min;
 }
 
 function shuffleArray(array: string[]): string[] {
   for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
+    const j = Math.floor(generateRandomElement() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
 }
 
 function getRandomElement(array: string[]): string {
-  const randomIndex = Math.floor(Math.random() * array.length);
+  const randomIndex = Math.floor(generateRandomElement() * array.length);
   return array[randomIndex];
 }
 
@@ -84,6 +90,7 @@ function addRandomElementsToArray(
 export {
   getRandomNumber,
   getRandomElements,
+  generateRandomElement,
   selectDynamicOption,
   getRandomIndexToHide,
   addRandomElementsToArray,

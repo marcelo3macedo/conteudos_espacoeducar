@@ -1,6 +1,6 @@
 import { SessionResponse } from '@/interfaces/session';
 import { ActivityConfig, Element } from '@/interfaces/sessionConfig';
-import { shuffleArray } from '@/utils/random';
+import { generateRandomElement, shuffleArray } from '@/utils/random';
 
 export abstract class Session {
   abstract generate(config: ActivityConfig, element: Element): SessionResponse;
@@ -14,7 +14,9 @@ export abstract class Session {
 
     const selectedOptions = [];
     for (let i = 0; i < optionsCount; i++) {
-      const randomIndex = Math.floor(Math.random() * filteredArray.length);
+      const randomIndex = Math.floor(
+        generateRandomElement() * filteredArray.length
+      );
       selectedOptions.push(filteredArray[randomIndex]);
       filteredArray.splice(randomIndex, 1); // Remove the selected element to avoid duplicates
     }
@@ -22,7 +24,7 @@ export abstract class Session {
     selectedOptions.push(response);
 
     for (let i = selectedOptions.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
+      const j = Math.floor(generateRandomElement() * (i + 1));
       [selectedOptions[i], selectedOptions[j]] = [
         selectedOptions[j],
         selectedOptions[i],
@@ -41,7 +43,7 @@ export abstract class Session {
     options.add(correctNumber.toString());
 
     while (options.size < numOptions) {
-      const randomOption = Math.floor(Math.random() * range) + 1;
+      const randomOption = Math.floor(generateRandomElement() * range) + 1;
       options.add(randomOption.toString());
     }
 
