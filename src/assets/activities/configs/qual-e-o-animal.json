@@ -1,0 +1,82 @@
+[
+    {
+        "difficulty": "level1",
+        "maxItems": 10,
+        "options": [
+            { "type": "identify-image", "possibility": 1 }
+        ],
+        "elements": [
+            {
+                "word": "Pato",
+                "slug": "pato",
+                "syllables": [ "PA", "TO"]
+            },
+            {
+                "word": "Cabra",
+                "slug": "cabra",
+                "syllables": [ "CA", "BRA"]
+            },
+            {
+                "word": "Cobra",
+                "slug": "cobra",
+                "syllables": [ "CO", "BRA"]
+            },
+            {
+                "word": "Galo",
+                "slug": "galo",
+                "syllables": [ "GA", "LO"]
+            },
+            {
+                "word": "Gato",
+                "slug": "gato",
+                "syllables": [ "GA", "TO"]
+            },
+            {
+                "word": "Leão",
+                "slug": "leao",
+                "syllables": [ "LE", "ÃO"]
+            },
+            {
+                "word": "Onça",
+                "slug": "onca",
+                "syllables": [ "ON", "ÇA"]
+            },
+            {
+                "word": "Panda",
+                "slug": "panda",
+                "syllables": [ "PAN", "DA"]
+            },
+            {
+                "word": "Porco",
+                "slug": "porco",
+                "syllables": [ "POR", "CO"]
+            },
+            {
+                "word": "Rato",
+                "slug": "rato",
+                "syllables": [ "RA", "TO"]
+            },
+            {
+                "word": "Sapo",
+                "slug": "sapo",
+                "syllables": [ "SA", "PO"]
+            },
+            {
+                "word": "Urso",
+                "slug": "urso",
+                "syllables": [ "UR", "SO"]
+            },
+            {
+                "word": "Vaca",
+                "slug": "vaca",
+                "syllables": [ "VA", "CA"]
+            },
+            {
+                "word": "Zebra",
+                "slug": "zebra",
+                "syllables": [ "ZE", "BRA"]
+            }
+        ],
+        "possibleOptions": [ "BA", "BE", "BI", "BO", "BU", "CA", "CE", "CI", "CO", "DA", "DE", "DI", "DO", "DU", "FA", "FE", "FI", "FO", "FU", "TA", "TE", "TI", "TO", "TU", "RA", "RE", "RI", "RO", "RU", "SA", "SE", "SI", "SO", "SU"]
+    }
+]

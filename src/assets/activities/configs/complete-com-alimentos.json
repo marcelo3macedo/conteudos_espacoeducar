@@ -1,0 +1,112 @@
+[
+    {
+        "difficulty": "level1",
+        "maxItems": 10,
+        "options": [
+            { "type": "complete-syllable", "possibility": 1 }
+        ],
+        "elements": [
+            {
+                "word": "Abacate",
+                "slug": "abacate",
+                "syllables": [ "A", "BA", "CA", "TE"]
+            },
+            {
+                "word": "Abacaxi",
+                "slug": "abacaxi",
+                "syllables": [ "A", "BA", "CA", "XI"]
+            },
+            {
+                "word": "Batata",
+                "slug": "batata",
+                "syllables": [ "BA", "TA", "TA" ]
+            },
+            {
+                "word": "Biscoito",
+                "slug": "biscoito",
+                "syllables": [ "BIS", "COI", "TO" ]
+            },
+            {
+                "word": "Bolo",
+                "slug": "bolo",
+                "syllables": [ "BO", "LO" ]
+            },
+            {
+                "word": "Cenoura",
+                "slug": "cenoura",
+                "syllables": [ "CE", "NOU", "RA" ]
+            },
+            {
+                "word": "Coco",
+                "slug": "coco",
+                "syllables": [ "CO", "CO" ]
+            },
+            {
+                "word": "Couve",
+                "slug": "couve",
+                "syllables": [ "COU", "VE" ]
+            },
+            {
+                "word": "Goiaba",
+                "slug": "goiaba",
+                "syllables": [ "GOI", "A", "BA" ]
+            },
+            {
+                "word": "Laranja",
+                "slug": "laranja",
+                "syllables": [ "LA", "RAN", "JA" ]
+            },
+            {
+                "word": "Lasanha",
+                "slug": "lasanha",
+                "syllables": [ "LA", "SA", "NHA" ]
+            },
+            {
+                "word": "Maçã",
+                "slug": "maca",
+                "syllables": [ "MA", "ÇÃ" ]
+            },
+            {
+                "word": "Hamburguer",
+                "slug": "hamburguer",
+                "syllables": [ "HAM", "BUR", "GUER" ]
+            },
+            {
+                "word": "Macarrão",
+                "slug": "macarrao",
+                "syllables": [ "MA", "CAR", "RÃO" ]
+            },
+            {
+                "word": "Mamão",
+                "slug": "mamao",
+                "syllables": [ "MA", "MÃO" ]
+            },
+            {
+                "word": "Morango",
+                "slug": "morango",
+                "syllables": [ "MO", "RAN", "GO" ]
+            },
+            {
+                "word": "Ovo",
+                "slug": "ovo",
+                "syllables": [ "O", "VO" ]
+            },
+            {
+                "word": "Pipoca",
+                "slug": "pipoca",
+                "syllables": [ "PI", "PO", "CA" ]
+            },
+            {
+                "word": "Pizza",
+                "slug": "pizza",
+                "syllables": [ "PIZ", "ZA" ]
+            },
+            {
+                "word": "Salada",
+                "slug": "salada",
+                "syllables": [ "SA", "LA", "DA" ]
+            }
+        ],
+        "possibleOptions": [ "BA", "BE", "BI", "BO", "BU", "CA", "CE", "CI", "CO", "DA", "DE", "DI", "DO", "DU", "FA", "FE", "FI", "FO", "FU", "TA", "TE", "TI", "TO", "TU", "RA", "RE", "RI", "RO", "RU", "SA", "SE", "SI", "SO", "SU"]
+    }
+]

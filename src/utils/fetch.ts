@@ -13,6 +13,14 @@ export async function fetchActivities(page: number = 1, limit: number = 10) {
   return res.json();
 }
 
+export async function fetchActivity(slug: string) {
+  const res = await fetch(`${apiUrl}/api/activity/${slug}`);
+  if (!res.ok) {
+    throw new Error('Failed to fetch activities');
+  }
+  return res.json();
+}
+
 export async function fetchPosts(page: number = 1, limit: number = 10) {
   const res = await fetch(`${apiUrl}/api/posts?page=${page}&limit=${limit}`);
   if (!res.ok) {

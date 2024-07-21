@@ -13,7 +13,7 @@ const useProfile = create(
       setAvatar: (avatar: any) => set({ avatar }),
     }),
     {
-      name: 'zustand-store',
+      name: 'store-profile',
       getStorage: () => localStorage,
     }
   )

@@ -72,7 +72,10 @@
     "description": "Será que você consegue completar essas missões?"
   },
   "activities": {
-    "start": "Iniciar"
+    "start": "Iniciar",
+    "back": "Voltar",
+    "question": "Pergunta",
+    "of": "de"
   },
   "teacher": {
     "title": "Área Dos Professores",
@@ -80,5 +83,32 @@
   },
   "post": {
     "endpoint": "postagens"
+  },
+  "activity": {
+    "completeSyllable": {
+      "title": "Qual sílaba está faltando?"
+    },
+    "identifyImage": {
+      "title": "Selecione a palavra referente a imagem"
+    },
+    "fingerContable": {
+      "title": "Qual a resposta desse cálculo?"
+    },
+    "createWord": {
+      "title": "Forme a palavra referente a:"
+    },
+    "selectImage": {
+      "title": "Selecione a imagem referente a palavra"
+    },
+    "validation": {
+      "correct": "Parabéns! Você acertou",
+      "error": "Que pena, você errou!"
+    },
+    "finished": {
+      "title": "Parabéns! Você completou essa atividade",
+      "score": "Você acertou",
+      "questions": "perguntas",
+      "backToActivity": "Voltar para atividades"
+    }
   }
 }
