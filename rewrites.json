@@ -22,5 +22,13 @@
   {
     "source": "/postagens/:slug",
     "destination": "/posts/:slug"
+  },
+  {
+    "source": "/para-alunos/:page",
+    "destination": "/content/student/:page"
+  },
+  {
+    "source": "/atividades/atividade",
+    "destination": "/activities/activity"
   }
 ]

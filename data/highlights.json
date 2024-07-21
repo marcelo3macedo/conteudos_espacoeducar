@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Professores",
+    "description": "Conteúdos para a sala de aula, artigos, atividades e muito mais...",
+    "slug": "para-professores",
+    "picture": "teacher"
+  },
+  {
+    "title": "Alunos",
+    "description": "Atividades para alfabetização, junte as sílabas, identifique as imagens, realize operações matemáticas...",
+    "slug": "para-alunos",
+    "picture": "student"
+  }
+]

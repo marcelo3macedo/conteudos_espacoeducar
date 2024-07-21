@@ -1,0 +1,62 @@
+[
+    {
+        "difficulty": "level1",
+        "maxItems": 10,
+        "options": [
+            { "type": "finger-contable", "possibility": 1 }
+        ],
+        "elements": [
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            },
+            {
+                "operations": [ "+" ],
+                "maxNumber": 5,
+                "minNumber": 1
+            }
+        ]
+        
+    }
+]
