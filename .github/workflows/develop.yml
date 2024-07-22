@@ -45,4 +45,4 @@ jobs:
             docker pull ${{ secrets.DOCKER_USERNAME }}/conteudos_espacoeducar:latest
             docker stop conteudos_espacoeducar || true
             docker rm conteudos_espacoeducar || true
-            docker run -d --name conteudos_espacoeducar -p 3000:3000 ${{ secrets.DOCKER_USERNAME }}/conteudos_espacoeducar:latest
+            docker run -d --name conteudos_espacoeducar -p 3100:3000 ${{ secrets.DOCKER_USERNAME }}/conteudos_espacoeducar:latest
