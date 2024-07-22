@@ -1,0 +1,31 @@
+# Ignore node modules
+node_modules
+
+# Ignore log files
+*.log
+
+# Ignore environment variables
+.env
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore test files
+__tests__
+*.spec.js
+*.test.js
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore other sensitive or unnecessary files
+README.md
+LICENSE
