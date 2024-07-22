@@ -1,4 +1,5 @@
 # Conteudos Espaço Educar
+
 An interactive NextJS application with free contents for early years teachers and students. This project serves as an example to showcase software development skills.
 
 ## Code Techs
@@ -8,6 +9,8 @@ An interactive NextJS application with free contents for early years teachers an
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ## SonarCloud Analysis
 
@@ -20,8 +23,6 @@ An interactive NextJS application with free contents for early years teachers an
 ![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=security_rating)
 ![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=sqale_rating)
 ![Duplicated Lines](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=duplicated_lines_density)
-
-
 
 ## Techniques Used
 
