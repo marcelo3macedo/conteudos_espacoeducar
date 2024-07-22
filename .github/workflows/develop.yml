@@ -43,6 +43,6 @@ jobs:
           key: ${{ secrets.DO_SERVER_SSH_KEY }}
           script: |
             docker pull ${{ secrets.DOCKER_USERNAME }}/conteudos_espacoeducar:latest
-            docker stop nextjs-app || true
-            docker rm nextjs-app || true
-            docker run -d --name nextjs-app -p 3000:3000 --env-file .env.production ${{ secrets.DOCKER_PASSWORD }}/conteudos_espacoeducar:latest
+            docker stop conteudos_espacoeducar || true
+            docker rm conteudos_espacoeducar || true
+            docker run -d --name conteudos_espacoeducar -p 3000:3000 ${{ secrets.DOCKER_USERNAME }}/conteudos_espacoeducar:latest
