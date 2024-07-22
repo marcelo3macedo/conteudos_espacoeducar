@@ -1,4 +1,5 @@
-### Conteudos Espaço Educar
+# Conteudos Espaço Educar
+An interactive NextJS application with free contents for early years teachers and students. This project serves as an example to showcase software development skills.
 
 ## Code Techs
 
@@ -11,7 +12,6 @@
 ## SonarCloud Analysis
 
 ![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=alert_status)
-![Coverage](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=coverage)
 ![Bugs](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=bugs)
 ![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=code_smells)
 ![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=vulnerabilities)
@@ -20,3 +20,27 @@
 ![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=security_rating)
 ![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=sqale_rating)
 ![Duplicated Lines](https://sonarcloud.io/api/project_badges/measure?project=marcelo3macedo_conteudos_espacoeducar&metric=duplicated_lines_density)
+
+
+
+## Techniques Used
+
+- **Latest Version of Next.js**: The project is built using the most recent version of Next.js, ensuring access to the latest features and improvements.
+
+- **Internationalization**: The application supports multiple languages, making it accessible to a broader audience through Next.js's built-in internationalization support.
+
+- **Software Quality Principles**: The project follows key principles of software quality, ensuring robust and maintainable code.
+
+- **ESLint Standardization**: Code quality and consistency are maintained through ESLint, which enforces coding standards and style guidelines.
+
+- **Inheritance for Session Types**: Different session types are created using the concept of inheritance, which helps in organizing and managing various content types effectively.
+
+- **Next.js API Functionality**: The application leverages Next.js API routes to handle server-side logic and data fetching.
+
+- **SSR and Client-Side Pages**: Pages are rendered using Server-Side Rendering (SSR) or client-side rendering based on the specific needs of each page, optimizing performance and user experience.
+
+- **Clean Architecture Separation**: The project is structured with clean architecture principles, separating concerns and enhancing maintainability.
+
+- **SonarQube Rules Compliance**: The code adheres to SonarQube rules, ensuring high code quality and reliability.
+
+Feel free to explore and contribute to this project!
